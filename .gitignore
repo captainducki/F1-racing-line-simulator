@@ -1,0 +1,59 @@
+# ==========================
+# Python Build / Cache Files
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# ==========================
+# Virtual Environment
+# ==========================
+f1sim/
+venv/
+
+# ==========================
+# VS Code Settings
+# ==========================
+.vscode/
+
+# ==========================
+# Jupyter / Test Artifacts
+# ==========================
+.ipynb_checkpoints/
+*.ipynb
+
+# ==========================
+# OS Garbage Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Word Documents (Devlogs)
+# ==========================
+*.docx
+*.doc
+~$*.docx   # Word temporary autosave files
+~$*.doc    # More Word temp files
+
+# ==========================
+# Backup / Temp Files
+# ==========================
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# ==========================
+# Python Packaging (not used yet)
+# ==========================
+build/
+dist/
+*.egg-info/
